@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffebcd;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffe4e1;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #ffebcd;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的個人網站</h1>
+    </header>
+    <nav>
+        <a href="#diary">日記</a>
+        <a href="#books">電子書</a>
+        <a href="#games">遊戲</a>
+        <a href="#music">音樂</a>
+        <a href="#links">連結</a>
+    </nav>
+    <div class="container">
+        <section id="diary" class="section">
+            <h2>日記</h2>
+            <p>寫日記，選擇是否希望有寫作教學或英文日記教學。</p>
+            <p>記錄節慶、活動和事情，並發送通知提醒。</p>
+            <p>所有日記內容僅自己可見。</p>
+        </section>
+        <section id="books" class="section">
+            <h2>電子書</h2>
+            <p>在這裡閱讀免費的電子書。</p>
+        </section>
+        <section id="games" class="section">
+            <h2>遊戲</h2>
+            <p>這裡可以玩第五人格、傳說對決、櫻花校園模擬器、夢幻鋼琴、Weplay等遊戲。</p>
+        </section>
+        <section id="music" class="section">
+            <h2>音樂</h2>
+            <p>聽音樂的地方。</p>
+        </section>
+        <section id="links" class="section">
+            <h2>連結</h2>
+            <p>
+                <a href="https://gimy.tv" target="_blank">Gimy劇迷</a> |
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://youtube.com" target="_blank">YouTube</a> |
+                <a href="https://messenger.com" target="_blank">Messenger</a> |
+                <a href="https://gmail.com" target="_blank">Gmail</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 我的個人網站. 由貓咪陪伴的快樂時光!</p>
+    </footer>
+</body>
+</html>
